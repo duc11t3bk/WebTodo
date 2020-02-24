@@ -12,7 +12,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class CustomerUserDetails implements UserDetails{
+public class UserDetailsImpl implements UserDetails{
 	private User user;	
 	
 	@Override
